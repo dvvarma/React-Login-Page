@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height:300px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.profile{
+              border:solid 1px #ccc;
+              margin-top:20px;
+              background-color: bisque;
+              }
+          .picture{
+              border:solid 1px #ccc;
+              width:200px;
+              height:200px;
+              display:inline-block;
+              vertical-align:top;
+              margin:5px;
+              background-color: bisque;
+          }
+          .profile .summary{
+              display:inline-block;
+          }
+          .profile .summary h1{
+              padding:0px;
+              margin:0px;
+          }
+.login{
+    margin-top:150px
+}
+.hero{
+	margin-top: 25px;
+    margin-left: 80px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
